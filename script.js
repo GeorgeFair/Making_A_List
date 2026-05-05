@@ -19,7 +19,11 @@ item2.textContent = "Red flower. Made with javascript code and Georges imaginati
 let item3 = document.createElement("li");
 item3.textContent = "Daffodil. Not made with javascript code, but still pretty cool.";
 
+let list = document.createElement("ul");
 
-document.body.appendChild(item1);
-document.body.appendChild(item2);
-document.body.appendChild(item3);
+list.appendChild(item1);
+list.appendChild(item2);
+list.appendChild(item3);
+
+
+document.body.appendChild(list);
