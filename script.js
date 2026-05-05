@@ -7,6 +7,9 @@ paragraph.textContent = "Georges flowers are pretty cool. Never quite as pretty 
     "which is pretty cool.";
 document.body.appendChild(paragraph);
 
+
+
+
 let item1 = document.createElement("li");
 item1.textContent = "Giant Pickle Flower, made with javascript code and Georges imagination.";
 
@@ -15,3 +18,8 @@ item2.textContent = "Red flower. Made with javascript code and Georges imaginati
 
 let item3 = document.createElement("li");
 item3.textContent = "Daffodil. Not made with javascript code, but still pretty cool.";
+
+
+document.body.appendChild(item1);
+document.body.appendChild(item2);
+document.body.appendChild(item3);
