@@ -14,7 +14,7 @@ let item1 = document.createElement("li");
 item1.textContent = "Giant Pickle Flower, made with javascript code and Georges imagination.";
 
 let item2 = document.createElement("li");
-item2.textContent = "Red flower. Made with javascript code and Georges imagination.";
+item2.textContent = "Red flower. Made with javascript code probably inspired by a real flower.";
 
 let item3 = document.createElement("li");
 item3.textContent = "Daffodil. Not made with javascript code, but still pretty cool.";
